@@ -1,0 +1,120 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* html
+{
+    scroll-behavior: smooth;
+} */
+.header
+{
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+.eventOverlay
+{
+    height: 100%;
+    background-color:rgba(255, 0, 0, 0.4);
+}
+.mySidenav
+{
+    width:0px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 9999999999;
+}
+.mySidenav .close-btn
+{
+    font-size: 32px;
+    margin-left: 80px;
+
+}
+.mySidenav a
+{
+    color: aliceblue;
+    padding: 20px 8px 20px 32px;
+    display: block;
+    transition: all 0.5s;
+    /* border: none; */
+}
+.nav-link:hover
+{
+    color: rgb(14, 229, 236);
+    border: solid 1px black;
+    padding: 5px;
+}
+
+.main h2,p
+{
+    color: aliceblue;
+    font-size: 30px;
+    text-align: center;
+}
+.main h2
+
+{
+    font-size: 40px;
+    padding-top: 200px;
+}
+.main span
+{
+    color: aliceblue;
+    font-size: 30px;
+    margin-left:0px;
+}
+.prag
+{
+    background-color: rgb(207, 201, 201);
+    color: #000;
+    padding: 10px;
+}
+.singers
+{
+    margin: 10%;
+    background-color:rgba(255, 0, 0, 0.4) ; 
+}
+.countsec
+{
+    color: aliceblue;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.layer
+{
+    background-color:rgba(255, 0, 0, 0.4) ;
+    height: 100%;
+    width: 100%;
+    padding:10%;
+}
+.time
+{
+    border: #000 1px solid;
+    padding: 40px;
+}
+
+.icon i
+{
+    color: darkgray;
+    border: #000 1px solid;
+    transition: all 1s;
+}
+
+.icon i:hover
+{
+    background-color: rgb(233, 64, 149);
+    color: aliceblue;
+}
